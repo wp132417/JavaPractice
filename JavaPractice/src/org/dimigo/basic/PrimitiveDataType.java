@@ -33,3 +33,4 @@ public class PrimitiveDataType {
 		System.out.print("혈액형: " + bloodType + "형");
 	}
 }
+//코드 수정ㅁㄴㅇㄹㅁㄴㅇ
