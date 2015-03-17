@@ -1,5 +1,12 @@
 package org.dimigo.basic;
 
+/*
+ *  << 두번째 수행평가 과제 >>
+ * 내용: 디미베테 연간 인건비 출
+ * 작성일자: 2015/3/17
+ * @author 신원준
+ * @version 1.0
+ */
 public class Promotion {
 
 	public static void main(String[] args) {
