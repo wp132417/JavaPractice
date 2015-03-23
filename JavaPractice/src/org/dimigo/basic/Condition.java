@@ -7,10 +7,9 @@ package org.dimigo.basic;
  * @version 1.0
  */
 public class Condition {
-
 	public static void main(String[] args) {
 		int fee, additional_fee;
-		int distance = 10;
+		int distance = 0;
 		String car = "고속버스";
 		switch(car) {
 		case "고속버스":
@@ -26,7 +25,7 @@ public class Condition {
 			additional_fee = 200;
 		}
 		
-		if(distance % 10 == 0) {
+		if(distance !=0 && distance % 10 == 0) {
 			fee += additional_fee * ((distance / 10) - 1);
 		} else {
 			fee += additional_fee * (distance / 10);
@@ -37,5 +36,4 @@ public class Condition {
 		System.out.println("거리 : " + distance + "km");
 		System.out.println("요금 : " + fee + "원");
 	}
-
 }
