@@ -1,16 +1,11 @@
 package org.dimigo.basic;
-/*
- *  << 네번째 수행평가 과제 >>
- * 내용: 고속도로 통행료 출력
- * 작성일자: 2015/3/23
- * @author 신원준
- * @version 1.0
- */
+
 public class Condition {
 	public static void main(String[] args) {
 		int fee, additional_fee;
-		int distance = 0;
-		String car = "고속버스";
+		int distance = 21;
+		String car = "경차";
+		
 		switch(car) {
 		case "고속버스":
 			fee = 850;
@@ -25,7 +20,7 @@ public class Condition {
 			additional_fee = 200;
 		}
 		
-		if(distance !=0 && distance % 10 == 0) {
+		if(distance != 0 && distance % 10 == 0) {
 			fee += additional_fee * ((distance / 10) - 1);
 		} else {
 			fee += additional_fee * (distance / 10);
