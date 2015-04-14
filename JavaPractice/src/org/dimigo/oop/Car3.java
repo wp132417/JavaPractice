@@ -2,8 +2,8 @@ package org.dimigo.oop;
 
 /**
  * org.dimigo.oop
- * 	 |_Car2
- * 1. 개요: 생성자 추가해서 클래스 만들기
+ * 	 |_Car3
+ * 1. 개요: this 이용 생성자 Chaining
  * 2. 작성일: 2015. 4. 14.
  *
  * @author 신원준

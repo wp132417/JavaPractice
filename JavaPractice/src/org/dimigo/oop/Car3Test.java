@@ -2,8 +2,8 @@ package org.dimigo.oop;
 
 /**
  * org.dimigo.oop
- * 	 |_Car2Test
- * 1. 개요: 생성자 이용해서 값 초기화하기
+ * 	 |_Car3Test
+ * 1. 개요: Car3 테스트
  * 2. 작성일: 2015. 4. 14.
  *
  * @author 신원준
