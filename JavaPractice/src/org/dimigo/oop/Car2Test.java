@@ -2,39 +2,22 @@ package org.dimigo.oop;
 
 /**
  * org.dimigo.oop
- * 	 |_CarTest
- * 1. 개요: getter setter 이용하여 값 초기화 및 변경
- * 2. 작성일: 2015. 4. 13.
+ * 	 |_Car2Test
+ * 1. 개요: 생성자 이용해서 값 초기화하기
+ * 2. 작성일: 2015. 4. 14.
  *
  * @author 신원준
  * @version 1.0
  */
-public class CarTest {
+
+public class Car2Test {
+	
 	public static void main(String[] args) {
-		Car car1 = new Car();
-		Car car2 = new Car();
-		Car car3 = new Car();
+		Car2 car1 = new Car2("현대자동차", "제네시스", "검정색", 225, 50000000);
+		Car2 car2 = new Car2("기아자동차", "K7", "흰색", 246, 40000000);
+		Car2 car3 = new Car2("삼성자동차", "SM7", "회색", 200, 38000000);
 		
 		System.out.println("<< 자동차 목록 >>");
-		
-		//자동차 정보 입력
-		car1.setCompany("현대자동자");
-		car1.setModel("제네시스");
-		car1.setColor("검정색");
-		car1.setMaxSpeed(225);
-		car1.setPrice(50000000);
-		
-		car2.setCompany("기아자동자");
-		car2.setModel("K7");
-		car2.setColor("흰색");
-		car2.setMaxSpeed(246);
-		car2.setPrice(40000000);
-		
-		car3.setCompany("삼성자동자");
-		car3.setModel("SM7");
-		car3.setColor("회색");
-		car3.setMaxSpeed(200);
-		car3.setPrice(38000000);
 		
 		//자동차 정보 출력
 		System.out.println("제조사명: " + car1.getCompany());
