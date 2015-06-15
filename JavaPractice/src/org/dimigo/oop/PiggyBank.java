@@ -15,8 +15,10 @@ package org.dimigo.oop;
  * @version 1.0
  */
 public class PiggyBank {
+	//정적 필드
 	private static int balance;
 	
+	//정적 메소드
 	public static void putMoney(FamilyMember member, int amount) {
 		System.out.println(member.getMemberName() + " " + amount + "원 넣음");
 		balance += amount;
