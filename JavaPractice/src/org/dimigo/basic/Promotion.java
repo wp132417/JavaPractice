@@ -10,6 +10,7 @@ package org.dimigo.basic;
 public class Promotion {
 
 	public static void main(String[] args) {
+		
 		int salary = 1700000;
 		int staff = 3;
 		int store_num = 1500;
