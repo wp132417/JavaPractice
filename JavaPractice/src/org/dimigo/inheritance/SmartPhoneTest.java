@@ -17,15 +17,20 @@ package org.dimigo.inheritance;
 public class SmartPhoneTest {
 
 	public static void main(String[] args) {
+		//IPhone, Galaxy 객체 생성
 		Galaxy g = new Galaxy("갤럭시 S6", "삼성", 650000);
 		IPhone i = new IPhone("iPhone 6", "애플", 700000);
 		
+		//iPhone
 		System.out.println(i);
 		i.turnOn();
 		i.pay();
 		i.useSpecialFunction();
 		i.turnOff();
 		
+		System.out.println();
+		
+		//Galaxy
 		System.out.println(g);
 		g.turnOn();
 		g.pay();
