@@ -21,7 +21,7 @@ public class MovieTest {
 	 */
 	public static void main(String[] args) {
 	
-//		try {
+		try {
 			Movie[] movies = {
 					new Movie("앤트맨", 12),
 					new Movie("사도", 12),
@@ -31,16 +31,16 @@ public class MovieTest {
 			int age = 13;
 			
 			for(Movie movie : movies) {
-				try {
+//				try {
 					buyTicket(movie, age);
-				} catch(Exception e) {
-					System.out.println(e.getMessage());
-				}
+//				} catch(Exception e) {
+//					System.out.println(e.getMessage());
+//				}
 			}
 			
-//		} catch(Exception e) {
-//			System.out.println(e.getMessage());
-//		}
+		} catch(Exception e) {
+			System.out.println(e.getMessage());
+		}
 		
 	}
 	
